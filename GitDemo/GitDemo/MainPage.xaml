@@ -11,7 +11,7 @@
         <!--  Place new controls here  -->
         <Label
             HorizontalOptions="Center"
-            Text="Welcome to Xamarin.Forms Here is more text"
+            Text="Welcome to Xamarin.Forms Here is more text some remote text"
             VerticalOptions="CenterAndExpand" />
     </StackLayout>
 
