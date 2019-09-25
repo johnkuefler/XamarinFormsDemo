@@ -8,11 +8,25 @@
     mc:Ignorable="d">
 
     <StackLayout>
-        <!--  Place new controls here  -->
+
+        <Button Opacity="0.5" Text="Ok This is a button" />
+
         <Label
-            HorizontalOptions="Center"
-            Text="Welcome to Xamarin.Forms Here is more text blah blah something"
-            VerticalOptions="CenterAndExpand" />
+            x:Name="myLabel"
+            FontAttributes="Bold"
+            FontFamily="Arial"
+            FontSize="24"
+            HorizontalTextAlignment="Center"
+            Text="Hello Forms!!!!"
+            TextColor="Blue" />
+
+        <Entry Keyboard="Numeric" Placeholder="Hello there" />
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="I'm horizontal" />
+            <Label Text="I'm horizontal" />
+            <Label Text="I'm horizontal" />
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>

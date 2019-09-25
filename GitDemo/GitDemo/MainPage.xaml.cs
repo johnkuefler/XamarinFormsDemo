@@ -16,6 +16,8 @@ namespace GitDemo
         public MainPage()
         {
             InitializeComponent();
+
+            myLabel.Text = "Hi from the backend!";
         }
     }
 }
